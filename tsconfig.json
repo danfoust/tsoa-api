@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    /* Basic Options */
+    "incremental": true,
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "removeComments": true,
+    "resolveJsonModule": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+
+    /* Experimental Options */
+    /* Enables experimental support for ES7 decorators. */
+    "experimentalDecorators": true,
+    /* Enables experimental support for emitting type metadata for decorators. */
+    "emitDecoratorMetadata": true,
+
+    /* Advanced Options */
+    /* Skip type checking of declaration files. */
+    "skipLibCheck": true,
+    /* Disallow inconsistently-cased references to the same file. */
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["web"]
+}

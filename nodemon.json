@@ -1,0 +1,5 @@
+{
+  "exec": "ts-node internal/server.ts",
+  "watch": ["internal"],
+  "ext": "ts"
+}

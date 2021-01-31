@@ -1,0 +1,12 @@
+{
+  "entryFile": "internal/app.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["internal/**/*.controller.ts"],
+  "spec": {
+    "outputDirectory": "dist",
+    "specVersion": 3
+  },
+  "routes": {
+    "routesDir": "dist"
+  }
+}
