@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let user of users$ |async">
+    <a [routerLink]="['/', 'profile', user.getId()]">
+      {{ user.getFullName()}}
+    </a>
+  </li>
+</ul>
